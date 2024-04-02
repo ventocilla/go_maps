@@ -2,7 +2,11 @@ package main
 
 import "fmt"
 
-//import "fmt"
+type Product struct {
+	id    string
+	title string
+	price float64
+}
 
 func main() {
 	//websites := []string{"http://google.com", "http://aws.com"}
